@@ -20,7 +20,7 @@ fi
 branch=${1%/}
 dev=${2%/}
 mono=false
-repo=https://github.com/godotengine/godot.git
+repo=https://github.com/ericlincn/godot.git
 
 if [[ $# -eq 3 && "$branch" != 3* ]]; then
 	mono=${3%/}
